@@ -1,5 +1,5 @@
 # Capstone-Project-1
-# 🏠 Property Price Prediction using Machine Learning
+#  Property Price Prediction using Machine Learning
 
 <p align="center">
 
@@ -14,7 +14,7 @@
 
 ---
 
-# 📖 Project Overview
+#  Project Overview
 
 This project predicts residential property prices using Machine Learning techniques. The complete workflow includes data collection, preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and deployment.
 
@@ -22,7 +22,7 @@ Three regression algorithms were developed and compared to identify the best-per
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 - Collect and clean real estate property data.
 - Handle missing values using appropriate imputation techniques.
@@ -35,7 +35,7 @@ Three regression algorithms were developed and compared to identify the best-per
 
 ---
 
-# 📂 Dataset Information
+#  Dataset Information
 
 | Attribute | Details |
 |------------|---------|
@@ -46,7 +46,7 @@ Three regression algorithms were developed and compared to identify the best-per
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 - Python
 - Pandas
@@ -59,7 +59,7 @@ Three regression algorithms were developed and compared to identify the best-per
 
 ---
 
-# 🔄 Project Workflow
+#  Project Workflow
 
 ```text
 Data Collection
@@ -100,11 +100,12 @@ Model Deployment (.pkl)
 
 ---
 
-# 📊 Exploratory Data Analysis (EDA)
+#  Exploratory Data Analysis (EDA)
 
 ## 1. Missing Values Analysis
 
-<img src="images/missing_values.png" width="800">
+<img width="700" height="400" alt="Screenshot 2026-06-27 154017" src="https://github.com/user-attachments/assets/fd77dda4-6fab-41a9-81a3-c87583b8c780" />
+
 
 **Observation**
 
@@ -117,7 +118,8 @@ Model Deployment (.pkl)
 
 ## 2. Property Price Distribution
 
-<img src="images/price_distribution.png" width="800">
+<img width="700" height="400" alt="Distribution_Property_Price" src="https://github.com/user-attachments/assets/cbbcd9ce-1b31-4960-9239-ecffc5541d2f" />
+
 
 **Observation**
 
@@ -128,7 +130,8 @@ Model Deployment (.pkl)
 
 ## 3. Living Area vs Property Price
 
-<img src="images/living_area_vs_price.png" width="800">
+<img width="700" height="400" alt="LivArea Vs PrpPrice" src="https://github.com/user-attachments/assets/8f7d4f31-c478-4f76-b5af-e989d716427a" />
+
 
 **Observation**
 
@@ -139,7 +142,8 @@ Model Deployment (.pkl)
 
 ## 4. Overall Quality vs Property Price
 
-<img src="images/overall_quality_vs_price.png" width="800">
+<img width="700" height="400" alt="OverallQual vs PropPrice" src="https://github.com/user-attachments/assets/def895d8-b000-4d9a-8508-040ccf831b33" />
+
 
 **Observation**
 
@@ -150,7 +154,8 @@ Model Deployment (.pkl)
 
 ## 5. Correlation Heatmap
 
-<img src="images/correlation_heatmap.png" width="800">
+<img width="1000" height="1000" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/e14e6a9f-094a-4f8b-aea7-4180733e0a3a" />
+
 
 **Observation**
 
@@ -159,7 +164,7 @@ Model Deployment (.pkl)
 
 ---
 
-# ⚙️ Data Preprocessing
+#  Data Preprocessing
 
 The following preprocessing techniques were applied:
 
@@ -172,7 +177,7 @@ The following preprocessing techniques were applied:
 
 ---
 
-# ⚡ Feature Engineering
+#  Feature Engineering
 
 Additional features were created to improve model performance:
 
@@ -183,7 +188,7 @@ These engineered features improved the predictive capability of the models.
 
 ---
 
-# 🤖 Machine Learning Models
+#  Machine Learning Models
 
 The following regression algorithms were implemented:
 
@@ -193,19 +198,21 @@ The following regression algorithms were implemented:
 
 ---
 
-# 📈 Model Performance
+#  Model Performance
 
 | Model | R² Score | MAE | RMSE |
 |--------|---------:|----:|-----:|
-| Linear Regression | **Your Score** | **Your Score** | **Your Score** |
-| Decision Tree Regressor | **Your Score** | **Your Score** | **Your Score** |
-| Random Forest Regressor | **Your Score** | **Your Score** | **Your Score** |
+| Linear Regression | **0.758544209182954** | **19062.84736342228** | **33147.576518673246
+** |
+| Decision Tree Regressor | **0.6459466253356637** | **26823.76712328767** | **40139.07298244954** |
+| Random Forest Regressor | **0.8139482307060701** | **16890.09152475941** | **29097.111029948443** |
 
 ---
 
 ## Model Performance Comparison
 
-<img src="images/model_comparison.png" width="700">
+<img width="700" height="400" alt="model_comparison" src="https://github.com/user-attachments/assets/6beecad2-27d2-43f3-be60-728d53e70cb7" />
+
 
 **Observation**
 
@@ -213,7 +220,7 @@ Random Forest achieved the highest R² score and was selected as the final model
 
 ---
 
-# 💾 Model Deployment
+# Model Deployment
 
 The final trained model was saved using Joblib.
 
@@ -225,7 +232,7 @@ The saved model can be loaded later without retraining and used to predict prope
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 Property-Price-Prediction/
@@ -248,7 +255,7 @@ Property-Price-Prediction/
 
 ---
 
-# 🚀 How to Run
+# How to Run
 
 Clone the repository:
 
@@ -272,7 +279,7 @@ Run all notebook cells sequentially.
 
 ---
 
-# 💡 Future Improvements
+# Future Improvements
 
 - Hyperparameter Tuning
 - Cross Validation
@@ -282,7 +289,7 @@ Run all notebook cells sequentially.
 
 ---
 
-# 📚 References
+# References
 
 - Scikit-learn Documentation
 - Pandas Documentation
@@ -293,10 +300,9 @@ Run all notebook cells sequentially.
 
 ---
 
-# 👨‍💻 Author
+# Author:
 
 ## Ajay Kumar Sahu
 
 **Machine Learning | Data Science | Python | SQL | Power BI**
 
-⭐ If you found this project useful, consider giving it a star on GitHub.
