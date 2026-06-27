@@ -259,7 +259,7 @@ Property-Price-Prediction/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Property-Price-Prediction.git
+git clone https://github.com/Ajay101997/Capstone-Project-1.git
 ```
 
 Install dependencies:
