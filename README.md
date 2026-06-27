@@ -154,7 +154,7 @@ Model Deployment (.pkl)
 
 ## 5. Correlation Heatmap
 
-<img width="1000" height="1000" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/e14e6a9f-094a-4f8b-aea7-4180733e0a3a" />
+<img width="800" height="1000" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/e14e6a9f-094a-4f8b-aea7-4180733e0a3a" />
 
 
 **Observation**
@@ -202,9 +202,10 @@ The following regression algorithms were implemented:
 
 | Model | R² Score | MAE | RMSE |
 |--------|---------:|----:|-----:|
-| Linear Regression | **0.758544209182954** | **19062.84736342228** | **33147.576518673246
-** |
+| Linear Regression | **0.758544209182954** | **19062.84736342228** | **33147.576518673246** |
+
 | Decision Tree Regressor | **0.6459466253356637** | **26823.76712328767** | **40139.07298244954** |
+
 | Random Forest Regressor | **0.8139482307060701** | **16890.09152475941** | **29097.111029948443** |
 
 ---
